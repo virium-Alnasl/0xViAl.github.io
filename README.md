@@ -19,7 +19,7 @@
 
 ###
 
-<p align="left">Hello! 🚀  <br><br>This is website repository which showcases my projects, skills, and experience in cybersecurity.<br><br>Special thanks to @arifszn for the github page template!</p>
+<p align="left">Hello! 🚀  <br><br>This is my website repository which showcases my projects, skills, and experience in cybersecurity.<br><br>Special thanks to @arifszn for the github page template!</p>
 
 ###
 
