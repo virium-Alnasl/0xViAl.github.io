@@ -35,6 +35,7 @@ const CONFIG = {
         {
           title: 'FlareVM + REMnux',
           description:
+            // eslint-disable-next-line prettier/prettier
           'I setup a Malware Analysis lab combining FlareVM and REMnux. Read more by clicking this post.',
           imageUrl:
             'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1358%2F0*RpSjG3Ku9XI5gIdq.png&f=1&nofb=1&ipt=8847334c5d13d995f7e83ece170b2cb16316d37f043020bc31de4d3dc64b6959',
@@ -43,9 +44,10 @@ const CONFIG = {
         {
           title: 'Cybersecurity Learning Platform Progressions',
           description:
+            // eslint-disable-next-line prettier/prettier
           'This is about my progression of my skills in multiple learning platforms! Read more by clicking this post.',
           imageUrl:
-          'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R6c2s0ejR4ZWphc2l6NnRzdWw2eDRraXdlenFlaDBjMjFubDJyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/djVVCMKG71PKVNwCtF/giphy.gif',
+            'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R6c2s0ejR4ZWphc2l6NnRzdWw2eDRraXdlenFlaDBjMjFubDJyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/djVVCMKG71PKVNwCtF/giphy.gif',
           link: 'https://medium.com/@0xvirial/cybersecurity-learning-platforms-progressions-aedc1662f299',
         },
       ],
