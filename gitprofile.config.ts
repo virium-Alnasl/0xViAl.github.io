@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -29,16 +29,24 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Projects',
+      header: 'Projects & Progression',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'FlareVM + REMnux',
           description:
-            'I setup a Malware Analysis lab combining FlareVM and REMnux. Read more by clicking this post.',
+          'I setup a Malware Analysis lab combining FlareVM and REMnux. Read more by clicking this post.',
           imageUrl:
             'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1358%2F0*RpSjG3Ku9XI5gIdq.png&f=1&nofb=1&ipt=8847334c5d13d995f7e83ece170b2cb16316d37f043020bc31de4d3dc64b6959',
           link: 'https://docs.google.com/document/d/1g8P5ceSzk4BBug2hiVp34YE0XxLAYip-sJ99xY5sbYQ/edit?usp=sharing',
+        },
+        {
+          title: 'Cybersecurity Learning Platform Progressions',
+          description:
+          'This is about my progression of my skills in multiple learning platforms! Read more by clicking this post.',
+          imageUrl:
+          'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R6c2s0ejR4ZWphc2l6NnRzdWw2eDRraXdlenFlaDBjMjFubDJyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/djVVCMKG71PKVNwCtF/giphy.gif',
+          link: 'https://medium.com/@0xvirial/cybersecurity-learning-platforms-progressions-aedc1662f299',
         },
       ],
     },
@@ -95,7 +103,7 @@ const CONFIG = {
 
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
+    source: 'medium', // medium | dev
     username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
@@ -161,13 +169,10 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `
+  footer: ` <i>"Looks cool having my badge here in the footer (^>.<^)"</i>
 <img src="https://tryhackme-badges.s3.amazonaws.com/viriumAlnasl.png" alt="Your Image Badge" />
-<br>
 Special thanks for the template by <a class="text-primary" href="https://github.com/arifszn/gitprofile"target="_blank" rel="noreferrer">GitProfile</a>.
-
 `,
-
   enablePWA: false,
 };
 
