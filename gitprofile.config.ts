@@ -59,7 +59,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: '0xViriAl Site', description: '', imageURL: '' },
+  seo: { title: '0xViriAl Portfolio Site', description: '', imageURL: '' },
   social: {
     linkedin: 'djcastilloii',
     discord: 'minwu_404',
