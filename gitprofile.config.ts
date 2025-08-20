@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'virium-Alnasl', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -49,6 +49,12 @@ const CONFIG = {
           imageUrl:
             'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R6c2s0ejR4ZWphc2l6NnRzdWw2eDRraXdlenFlaDBjMjFubDJyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/djVVCMKG71PKVNwCtF/giphy.gif',
           link: 'https://medium.com/@0xvirial/cybersecurity-learning-platforms-progressions-aedc1662f299',
+        },
+        {
+          title: 'SIEM Mini-Lab',
+          description: 'W.I.P',
+          imageUrl: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHRsajU0NWZkYjU1ZjhxOG5vaHU5M2NuZXB4ZnRiandwaHg4eXc5ZSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/mEVnhMtOVOAVxmts9B/giphy.gif',
+          link: 'https://www.google.com/',
         },
       ],
     },
