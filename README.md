@@ -19,7 +19,7 @@
 
 ###
 
-<h1 align="center">0xViriAl Website Portfolio</h1>
+<h1 align="center">0xViriAl Web Portfolio</h1>
 
 ###
 

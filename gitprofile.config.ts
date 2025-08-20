@@ -5,11 +5,7 @@ const CONFIG = {
   github: {
     username: 'virium-Alnasl', // Your GitHub org/user name. (This is the only required config)
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
+
   base: '/',
   projects: {
     github: {
@@ -34,33 +30,33 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'FlareVM + REMnux',
+          title: 'FlareVM + REMnux Home Lab',
           description:
             // eslint-disable-next-line prettier/prettier
-          'I setup a Malware Analysis lab combining FlareVM and REMnux. Read more by clicking this post.',
+          'I setup a simulated malware analysis environment lab combining FlareVM and REMnux to improve my experience in digital forensic skills.',
           imageUrl:
             'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1358%2F0*RpSjG3Ku9XI5gIdq.png&f=1&nofb=1&ipt=8847334c5d13d995f7e83ece170b2cb16316d37f043020bc31de4d3dc64b6959',
           link: 'https://docs.google.com/document/d/1g8P5ceSzk4BBug2hiVp34YE0XxLAYip-sJ99xY5sbYQ/edit?usp=sharing',
         },
         {
-          title: 'Cybersecurity Learning Platform Progressions',
+          title: 'My Cybersecurity Learning Platform Progressions',
           description:
             // eslint-disable-next-line prettier/prettier
-          'This is about my progression of my skills in multiple learning platforms! Read more by clicking this post.',
+          'A time-to-time updated post about my progression of my skills in multiple learning platforms that you can check my cybersecurity growth.',
           imageUrl:
             'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R6c2s0ejR4ZWphc2l6NnRzdWw2eDRraXdlenFlaDBjMjFubDJyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/djVVCMKG71PKVNwCtF/giphy.gif',
           link: 'https://medium.com/@0xvirial/cybersecurity-learning-platforms-progressions-aedc1662f299',
         },
         {
-          title: 'SIEM Mini-Lab',
-          description: 'W.I.P',
+          title: 'Wazuh SIEM Home Lab',
+          description: 'A simulated SIEM environment lab connected to a windows virtual machine to simulate incident response.',
           imageUrl: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHRsajU0NWZkYjU1ZjhxOG5vaHU5M2NuZXB4ZnRiandwaHg4eXc5ZSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/mEVnhMtOVOAVxmts9B/giphy.gif',
-          link: 'https://www.google.com/',
+          link: 'https://docs.google.com/document/d/1AMAkzbV8KVVMcUvmyRDUb-k6XCoaHH2FjSO8-85WDjo/edit?usp=sharing',
         },
       ],
     },
   },
-  seo: { title: '0xViriAl Portfolio Site', description: '', imageURL: '' },
+  seo: { title: '0xViriAl Web Portfolio', description: '', imageURL: ''},
   social: {
     linkedin: 'djcastilloii',
     discord: 'minwu_404',
