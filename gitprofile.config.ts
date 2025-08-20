@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // gitprofile.config.ts
 
 const CONFIG = {
