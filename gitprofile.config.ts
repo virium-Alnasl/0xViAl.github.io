@@ -42,7 +42,7 @@ const CONFIG = {
           title: 'My Cybersecurity Learning Platform Progressions',
           description:
             // eslint-disable-next-line prettier/prettier
-          'A time-to-time updated post about my progression of my skills in multiple learning platforms that you can check my cybersecurity growth.',
+          'A periodically updated post about my progression of my skills in multiple learning platforms that you can check my cybersecurity growth.',
           imageUrl:
             'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R6c2s0ejR4ZWphc2l6NnRzdWw2eDRraXdlenFlaDBjMjFubDJyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/djVVCMKG71PKVNwCtF/giphy.gif',
           link: 'https://medium.com/@0xvirial/cybersecurity-learning-platforms-progressions-aedc1662f299',
@@ -52,6 +52,12 @@ const CONFIG = {
           description: 'A simulated SIEM environment lab connected to a windows virtual machine to simulate incident response.',
           imageUrl: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHRsajU0NWZkYjU1ZjhxOG5vaHU5M2NuZXB4ZnRiandwaHg4eXc5ZSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/mEVnhMtOVOAVxmts9B/giphy.gif',
           link: 'https://docs.google.com/document/d/1AMAkzbV8KVVMcUvmyRDUb-k6XCoaHH2FjSO8-85WDjo/edit?usp=sharing',
+        },
+        {
+          title: 'My CTFs Journey',
+          description: 'Progression post of my CTFs journey sharing my experience and thoughts.',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/608/608744.png',
+          link: 'https://docs.google.com/document/d/1TIfFS3UHsoOwJ4_FqzK9l9gMaxdT2HAOA2tTUyl7roQ/edit?usp=sharing',
         },
       ],
     },
